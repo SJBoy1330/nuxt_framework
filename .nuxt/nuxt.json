@@ -1,7 +1,7 @@
 {
-  "_hash": "zI6mu4RV6u",
+  "_hash": "qmTkinLvVC",
   "project": {
-    "rootDir": "C:/xampp/htdocs/framework_nuxt"
+    "rootDir": "C:/xampp/htdocs/nuxt_framework"
   },
   "versions": {
     "nuxt": "3.0.0-rc.11"

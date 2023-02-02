@@ -14,17 +14,13 @@ export default defineNuxtConfig({
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' }
       ],
       script: [
-        {
-          src: base_url + 'assets/js/script'
-        }
+        { src: base_url + 'assets/js/script' }
       ]
     }
   },
   runtimeConfig: {
     currencyKey: process.env.CURRENCY_API_KEY,
-    public: {
-      apiBase: 'http://api.workpro.id/',
-      urlBase: base_url
-    }
+    apiBase: 'http://api.workpro.id/',
+    urlBase: base_url
   }
 })
